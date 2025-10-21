@@ -1,0 +1,21 @@
+span {
+    font-weight: bold;
+}
+
+@media (max-width: 899px) {
+    #carouselExampleControlsNoTouching {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 900px) {
+    #carouselExampleControlsNoTouching {
+        max-width: 75%;
+        margin: 0 auto;
+    }
+}
+
+#exampleInputEmail1, #exampleInputPassword1, #exampleFormControlTextarea1 {
+    background-color: #1d2a35;
+    color: white;
+}

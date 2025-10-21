@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>WebDevGroupShop - Товар2</title>
+    <title>WebDevGroupShop - Framework</title>
     <meta name="description" content="Final project site for WebDev lesson">
     <meta name="author" content="webdevgroup">
     <link rel="canonical" href="https://webdevgroupshop.netlify.app">
@@ -50,8 +50,8 @@
                         { "@type": "ListItem", "position": 10, "name": "Політика конфіденційності", "item": "https://github.com/Selector0073/webdevgroupShop/politic.html" },
                         { "@type": "ListItem", "position": 11, "name": "FAQ", "item": "https://github.com/Selector0073/webdevgroupShop/FAQ.html" },
                         { "@type": "ListItem", "position": 12, "name": "Допомога", "item": "https://github.com/Selector0073/webdevgroupShop/support.html" },
-                        { "@type": "ListItem", "position": 13, "name": "Товар1", "item": "https://github.com/Selector0073/webdevgroupShop/product1.html" }
-                        { "@type": "ListItem", "position": 14, "name": "Товар2", "item": "https://github.com/Selector0073/webdevgroupShop/product2.html" }
+                        { "@type": "ListItem", "position": 13, "name": "Товар1", "item": "https://github.com/Selector0073/webdevgroupShop/product1.html" },
+                        { "@type": "ListItem", "position": 14, "name": "Товар2", "item": "https://github.com/Selector0073/webdevgroupShop/product2.html" },
                         { "@type": "ListItem", "position": 15, "name": "Товар3", "item": "https://github.com/Selector0073/webdevgroupShop/product3.html" }
                     ]
                 }
@@ -120,8 +120,28 @@
     </header>
     <main>
         <h1>Framework</h1>
-
-
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/framework1.png" class="d-block w-100" alt="Photo1">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/framework2.png" class="d-block w-100" alt="Photo2">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/framework3.png" class="d-block w-100" alt="Photo3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <br>
         <p>
             <span>Настільна гнучкість конфігурації</span><br>
             Завдяки змінній материнській платі та модулю графіки, двом слотам DDR5 SO-DIMM і двом стандартним слотам M.2 для сховищ, 
@@ -137,10 +157,27 @@
             Перейди від інтегрованої графіки до потужних дискретних GPU від AMD або NVIDIA® лише за допомогою одного інструмента. 
             Чи то ігри, створення контенту, чи обчислення на основі ШІ — Expansion Bay дозволяє обрати потрібну продуктивність.
         </p>
-
-
-
-
+        <h3>Оформити замовлення</h3>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Електронна пошта</label>
+                <input type="email" class="form-control w-50" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Пароль</label>
+                <input type="password" class="form-control w-50" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Підтвердіть пароль</label>
+                <input type="password" class="form-control w-50" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Примітка</label>
+                <textarea class="form-control w-50" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Підтвердити</button>
+        </form>
+        <br><br>
     </main>
     <footer>Selector0073 | Каріна Батура | Катя Каташинська</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
