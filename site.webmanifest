@@ -1,0 +1,9 @@
+{
+    "name": "WebDevGroupShop",
+    "short_name": "WebDevGroupShop",
+    "description": "Final project site for WebDev lesson",
+    "display": "standalone",
+    "background_color": "#1d2a35",
+    "theme_color": "#1d2a35",
+    "orientation": "portrait"
+}

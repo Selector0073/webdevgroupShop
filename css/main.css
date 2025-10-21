@@ -1,0 +1,84 @@
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+!Please DO NOT modify this file, write css in the appropriate files.
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+:root {
+    --bg: #1d2a35;
+    --sec-bg: #15202b;
+    --thr-bg: #0d1721;
+    --btn: #059862;
+    --text: #b8dddd;
+    --pop-up: #2d3748;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: "Lucida Console", "Courier New", monospace;
+    box-sizing: border-box;
+}
+
+main {
+    flex: 1;
+    padding-left: 5px;
+}
+
+::selection { 
+    background: #04aa6d; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px 3px 10px;
+    background-color: #171921;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: #dddddd;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 110%;
+}
+
+.navbar {
+    background-color: var(--thr-bg) !important;
+}
