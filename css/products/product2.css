@@ -15,7 +15,19 @@ span {
     }
 }
 
-#exampleInputEmail1, #exampleInputPassword1, #exampleFormControlTextarea1 {
+#exampleInputEmail1, #exampleInputPassword1, #exampleFormControlTextarea1, #exampleInputPasswordConfirm1 {
     background-color: #1d2a35;
     color: white;
+}
+
+.alert-success {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #54daa9 !important;
+}
+
+.alert-danger {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #ff3737 !important;
 }
