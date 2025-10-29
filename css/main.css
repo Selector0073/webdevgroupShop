@@ -51,7 +51,7 @@ body {
     min-height: 100vh;
     background-color: var(--bg);
     color: var(--text);
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Liberation Mono", "Courier New", monospace;
     box-sizing: border-box;
 }
 
