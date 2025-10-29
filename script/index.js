@@ -7,12 +7,13 @@ document.getElementById('bg').appendChild(renderer.domElement);
 scene.background = new THREE.Color(0x1d2a35);
 
 const shapes = [];
-const shapeCount = 30;
+const shapeCount = 40;
 
 const geometryTypes = [
     new THREE.BoxGeometry(0.5, 0.5, 0.5),
     new THREE.SphereGeometry(0.3, 16, 16),
-    new THREE.ConeGeometry(0.3, 0.6, 8)
+    new THREE.ConeGeometry(0.3, 0.6, 8),
+    new THREE.CylinderGeometry(0.4, 0.4, 0.4)
 ];
 
 const materialColors = [0x3e4f61, 0x2a3a45, 0x1f3a50, 0x4a6a80, 0x6b8c99, 0xa3b1b8, 0xf2f2f2, 0x0f1b23];
