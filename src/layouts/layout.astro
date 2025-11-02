@@ -1,18 +1,30 @@
-<!DOCTYPE html>
+---
+interface Props {
+    title: string
+}
+
+import '../styles/main.css'
+
+
+const { title } = Astro.props as Props;
+const { pathname } = Astro.url;
+---
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>WebDevGroupShop - Про нас</title>
-    <link rel="icon" type="image/png" href="img/store-line.png">
+    <title>WebDevGroupShop - { title }</title>
+    <link rel="icon" type="image/png" href="/img/store-line.png">
     <meta name="description" content="Final project site for WebDev lesson">
     <meta name="author" content="webdevgroup">
     <link rel="canonical" href="https://webdevgroupshop.netlify.app">
 
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
-    <link rel="manifest" href="site.webmanifest">
+    <link rel="manifest" href="/site.webmanifest">
     <meta name="theme-color" content="#1d2a35">
 
     <meta property="og:locale" content="en_US">
@@ -60,6 +72,8 @@
         }
     </script>
 
+    <!--<link rel="preload" href="script/index.js" as="script">-->
+
     <link 
         rel="preload" 
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
@@ -68,41 +82,41 @@
         crossorigin="anonymous">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/about.css">
+    <!--<link rel="stylesheet" href="/styles/main.css">-->
 
     <meta name="mobile-web-app-capable" content="yes">
 </head>
 <body>
+    <div id="bg"></div>
     <header> 
         <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">WebDevGroupShop</a>
+                <a class="navbar-brand" href="/">WebDevGroupShop</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Головна</a>
+                            <a class={`nav-link ${pathname === '/' ? 'active' : ''}`} aria-current="page" href="/">Головна</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="shop.html">Каталог</a>
+                            <a class={`nav-link ${pathname === '/shop' ? 'active' : ''}`} href="shop.html">Каталог</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Інформація
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="services.html">Послуги</a></li>
-                                <li><a class="dropdown-item" href="sales.html">Акції та знижки</a></li>
-                                <li><a class="dropdown-item" href="guarantee.html">Гарантії і умови повернення</a></li>
+                                <li><a class={`dropdown-item ${pathname === '/services' ? 'active' : ''}`} href="services.html">Послуги</a></li>
+                                <li><a class={`dropdown-item ${pathname === '/sales' ? 'active' : ''}`} href="sales.html">Акції та знижки</a></li>
+                                <li><a class={`dropdown-item ${pathname === '/guarantee' ? 'active' : ''}`} href="guarantee.html">Гарантії і умови повернення</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item active" href="about.html">Про нас</a></li>
-                                <li><a class="dropdown-item" href="contacts.html">Контакти</a></li>
-                                <li><a class="dropdown-item" href="wholesale.html">Оптовим покупцям</a></li>
-                                <li><a class="dropdown-item" href="vacancies.html">Вакансії</a></li>
-                                <li><a class="dropdown-item" href="politic.html">Політика конфіденційності</a></li>
+                                <li><a class={`dropdown-item ${pathname === '/about' ? 'active' : ''}`} href="about.html">Про нас</a></li>
+                                <li><a class={`dropdown-item ${pathname === '/contacts' ? 'active' : ''}`} href="contacts.html">Контакти</a></li>
+                                <li><a class={`dropdown-item ${pathname === '/wholesale' ? 'active' : ''}`} href="wholesale.html">Оптовим покупцям</a></li>
+                                <li><a class={`dropdown-item ${pathname === '/vacancies' ? 'active' : ''}`} href="vacancies.html">Вакансії</a></li>
+                                <li><a class={`dropdown-item ${pathname === '/politic' ? 'active' : ''}`} href="politic.html">Політика конфіденційності</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -120,26 +134,11 @@
         </nav>
     </header>
     <main>
-        <h1>Про нас</h1>
-        <p>Ми-магазин сучасної техніки,де якість поєднується з надійністю.
-        У нас ви знайдете все:від смартфонів і ноутбуків до побутової технікидля дому.
-        Ми допомагаємо зробити ваш побут зручнішим,а роботу-ефективнішою.
-        Працюємо лише з перевіреними брендами та гарантуєму чесні ціни й швидке обслуговування.
-        </p>
-        <h2>У нас в асортименті є:</h2>
-        <li>
-            <ul>смарфони та аксесуари</ul>
-            <ul>ноутбуки,планшети,комп'ютерна техніка</ul>
-            <ul>побутова техніка для дому</ul>
-            <ul>гаджети для дозвілля та роботи</ul>
-        </li>
-        <p>Ми постійно оновлюємо наш каталог,слідкуємо за новинками й пропонуєму 
-        <b>чесні ціни,швидку доставку та гарантію на кожен товар.</b>
-        Наші менеджери завджи допоможуть обрати техніку,що краще відповідає вашим потребам.
-        </p>
-        <p>Ми прагнемо бути не просто магазином,а вашим надійним помічником у світі технологій.</p>
+        <slot />
     </main>
     <footer>Selector0073 | Каріна Батура | Катя Каташинська</footer>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.min.js"></script>
+    <!--<script src="script/index.js"></script>-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
