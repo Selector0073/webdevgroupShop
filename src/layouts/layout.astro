@@ -5,7 +5,6 @@ interface Props {
 
 import '../styles/main.css'
 
-
 const { title } = Astro.props as Props;
 const { pathname } = Astro.url;
 ---
@@ -82,7 +81,6 @@ const { pathname } = Astro.url;
         crossorigin="anonymous">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <!--<link rel="stylesheet" href="/styles/main.css">-->
 
     <meta name="mobile-web-app-capable" content="yes">
 </head>
@@ -101,22 +99,22 @@ const { pathname } = Astro.url;
                             <a class={`nav-link ${pathname === '/' ? 'active' : ''}`} aria-current="page" href="/">Головна</a>
                         </li>
                         <li class="nav-item">
-                            <a class={`nav-link ${pathname === '/shop' ? 'active' : ''}`} href="shop.html">Каталог</a>
+                            <a class={`nav-link ${pathname === '/shop' ? 'active' : ''}`} href="shop">Каталог</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Інформація
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class={`dropdown-item ${pathname === '/services' ? 'active' : ''}`} href="services.html">Послуги</a></li>
-                                <li><a class={`dropdown-item ${pathname === '/sales' ? 'active' : ''}`} href="sales.html">Акції та знижки</a></li>
-                                <li><a class={`dropdown-item ${pathname === '/guarantee' ? 'active' : ''}`} href="guarantee.html">Гарантії і умови повернення</a></li>
+                                <li><a class={`dropdown-item ${pathname === '/services' ? 'active' : ''}`} href="services">Послуги</a></li>
+                                <li><a class={`dropdown-item ${pathname === '/sales' ? 'active' : ''}`} href="sales">Акції та знижки</a></li>
+                                <li><a class={`dropdown-item ${pathname === '/guarantee' ? 'active' : ''}`} href="guarantee">Гарантії і умови повернення</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class={`dropdown-item ${pathname === '/about' ? 'active' : ''}`} href="about.html">Про нас</a></li>
-                                <li><a class={`dropdown-item ${pathname === '/contacts' ? 'active' : ''}`} href="contacts.html">Контакти</a></li>
-                                <li><a class={`dropdown-item ${pathname === '/wholesale' ? 'active' : ''}`} href="wholesale.html">Оптовим покупцям</a></li>
-                                <li><a class={`dropdown-item ${pathname === '/vacancies' ? 'active' : ''}`} href="vacancies.html">Вакансії</a></li>
-                                <li><a class={`dropdown-item ${pathname === '/politic' ? 'active' : ''}`} href="politic.html">Політика конфіденційності</a></li>
+                                <li><a class={`dropdown-item ${pathname === '/about' ? 'active' : ''}`} href="about">Про нас</a></li>
+                                <li><a class={`dropdown-item ${pathname === '/contacts' ? 'active' : ''}`} href="contacts">Контакти</a></li>
+                                <li><a class={`dropdown-item ${pathname === '/wholesale' ? 'active' : ''}`} href="wholesale">Оптовим покупцям</a></li>
+                                <li><a class={`dropdown-item ${pathname === '/vacancies' ? 'active' : ''}`} href="vacancies">Вакансії</a></li>
+                                <li><a class={`dropdown-item ${pathname === '/politic' ? 'active' : ''}`} href="politic">Політика конфіденційності</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -124,8 +122,8 @@ const { pathname } = Astro.url;
                                 Допомога
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="FAQ.html">FAQ</a></li>
-                                <li><a class="dropdown-item" href="support.html">Підтримка</a></li>
+                                <li><a class="dropdown-item" href="FAQ">FAQ</a></li>
+                                <li><a class="dropdown-item" href="support">Підтримка</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -138,7 +136,7 @@ const { pathname } = Astro.url;
     </main>
     <footer>Selector0073 | Каріна Батура | Катя Каташинська</footer>
     <script src="https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.min.js"></script>
-    <!--<script src="script/index.js"></script>-->
+    <script src="/scripts/shop.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
