@@ -1,8 +1,29 @@
 ---
 import Layout from "../layouts/layout.astro"
-import '../styles/index.css'
+import '../styles/shop.css'
+import products from '../data/products.json'
 ---
 
-<Layout title="Головна">
-	
+<Layout title="Каталог">
+    <h1>Каталог</h1>
+
+    <div class="d-flex flex-wrap justify-content-center" style="gap: 9rem;">
+        {products.map((product, index) => (
+            <div class="product-card" style={`animation-delay: ${0.08 * (index + 1)}s`}>
+                <div class="card bg-dark text-white" style="width: 18rem;">
+                    <img src={product.image} class="card-img-top" alt={product.name} />
+                    <div class="card-body">
+                        <h5 class="card-title">{product.name}</h5>
+                        <p class="card-text">
+                            {product.description.length > Math.ceil(product.description.length / 2)
+                                ? product.description.slice(0, Math.ceil(product.description.length / 2)) + "..."
+                                : product.description
+                            }
+                        </p>
+                        <a href={`/product/${product.id}`} class="btn btn-primary">Переглянути</a>
+                    </div>
+                </div>
+            </div>
+        ))}
+    </div>
 </Layout>

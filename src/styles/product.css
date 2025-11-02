@@ -31,3 +31,14 @@ span {
     margin-right: 10%;
     background-color: #ff3737 !important;
 }
+
+#carouselExampleControlsNoTouching {
+    max-height: 600px;
+    min-height: 600px;
+}
+
+img {
+    max-height: 500px;
+    width: auto;
+    object-fit: contain;
+}
