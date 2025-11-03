@@ -1,7 +1,6 @@
 # Plan
 ![obsidian plan](obsidian.png)
 
-
 # Структура файлів
 
 ## HTML
@@ -57,3 +56,7 @@ import '../styles/wholesale.css'                <- Підключення css
 	<h1>Оптовим покупцям</h1>                   <- В цьому блоці ви пишете те що буде в <main>
 </Layout>
 ```
+
+# Code highlighting
+
+To have code highlighting and auto-continuation in astro files, install the <a href="https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode">extension</a>
