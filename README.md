@@ -1,3 +1,7 @@
+# Plan
+![obsidian plan](obsidian.png)
+
+
 # Структура файлів
 
 ## HTML
