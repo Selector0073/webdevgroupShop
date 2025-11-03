@@ -4,7 +4,7 @@
         "name": "Apple iPhone 17 256GB",
         "description": "iPhone 17 пропонує 256 ГБ внутрішньої пам’яті, потужний процесор та камери високого рівня, а також інтеграцію з екосистемою Apple.",
         "image": "/img/apple_iphone_17___256_gb_1.jpg",
-        "image2": "img/fill1.jpg",
+        "image2": "/img/fill1.jpg",
         "price": 43999
     },
     {
@@ -12,7 +12,7 @@
         "name": "Google Pixel 8 Pro 128GB",
         "description": "Google Pixel 8 Pro 128GB пропонує передові можливості камери, чистий Android та потужний чіп Tensor G3.",
         "image": "/img/google_pixel_8_pro____128gb_1.jpg",
-        "image2": "img/fill1.jpg",
+        "image2": "/img/fill1.jpg",
         "price": 34999
     },
     {
@@ -20,7 +20,7 @@
         "name": "JBL Flip 6 Portable Speaker",
         "description": "JBL Flip 6 Portable Speaker забезпечує потужний звук, водонепроникність та тривалий час роботи від акумулятора.",
         "image": "/img/jbl_flip_6___portable_speaker_1.jpg",
-        "image2": "img/fill1.jpg",
+        "image2": "/img/fill1.jpg",
         "price": 4999
     },
     {
@@ -28,7 +28,7 @@
         "name": "Samsung Galaxy A07 4/128GB",
         "description": "Samsung Galaxy A07 оснащений 4 ГБ оперативної пам’яті та 128 ГБ сховища, підтримує основні завдання, має акумулятор великої ємності та базові характеристики для повсякденного використання.",
         "image": "/img/samsung_galaxy_a07__4_128gb_1.jpg",
-        "image2": "img/fill1.jpg",
+        "image2": "/img/fill1.jpg",
         "price": 6999
     },
     {
@@ -36,7 +36,7 @@
         "name": "Sony WH-1000XM5",
         "description": "Sony WH-1000XM5 забезпечують найкраще в класі шумозаглушення, виняткову якість звуку та комфортне носіння.",
         "image": "/img/sony_wh_1000xm5_1.jpg",
-        "image2": "img/fill1.jpg",
+        "image2": "/img/fill1.jpg",
         "price": 18999
     },
     {
@@ -44,7 +44,7 @@
         "name": "Dell XPS 15 Laptop",
         "description": "Dell XPS 15 Laptop відомий своїм преміальним дизайном, потужною продуктивністю та чудовим дисплеєм для професіоналів.",
         "image": "/img/dell_xps_15__laptop_1.jpg",
-        "image2": "img/fill1.jpg",
+        "image2": "/img/fill1.jpg",
         "price": 62999
     },
     {
@@ -52,7 +52,7 @@
         "name": "Apple iPad Air 5th Gen",
         "description": "Apple iPad Air 5th Gen має потужний чіп M1, яскравий Liquid Retina дисплей та підтримку Apple Pencil 2-го покоління.",
         "image": "/img/apple_ipad_air_5th_gen_1.jpg",
-        "image2": "img/fill1.jpg",
+        "image2": "/img/fill1.jpg",
         "price": 28999
     },
     {
@@ -60,7 +60,7 @@
         "name": "Samsung Galaxy Watch 6",
         "description": "Samsung Galaxy Watch 6 пропонує розширені функції моніторингу здоров'я, стильний дизайн та інтеграцію з екосистемою Samsung.",
         "image": "/img/samsung_galaxy_watch_6_1.png",
-        "image2": "img/fill2.jpg",
+        "image2": "/img/fill2.jpg",
         "price": 11999
     },
     {
@@ -68,7 +68,7 @@
         "name": "OnePlus 11 5G 256GB",
         "description": "OnePlus 11 5G 256GB оснащений флагманським процесором, швидкою зарядкою та високоякісним дисплеєм.",
         "image": "/img/oneplus_11__5g__256_gb_1.jpg",
-        "image2": "img/fill2.jpg",
+        "image2": "/img/fill2.jpg",
         "price": 26999
     },
     {
@@ -76,7 +76,7 @@
         "name": "Bose QuietComfort Earbuds II",
         "description": "Bose QuietComfort Earbuds II пропонують найкраще в класі шумозаглушення, комфортну посадку та високоякісний звук.",
         "image": "/img/bose_quietcomfort_earbuds_ii_1.jpg",
-        "image2": "img/fill2.jpg",
+        "image2": "/img/fill2.jpg",
         "price": 14999
     },
     {
@@ -84,7 +84,7 @@
         "name": "HP Spectre x360",
         "description": "HP Spectre x360 - це елегантний ноутбук-трансформер з високою продуктивністю, сенсорним екраном та тривалим часом автономної роботи.",
         "image": "/img/hp_spectre_x36_0_1.jpg",
-        "image2": "img/fill2.jpg",
+        "image2": "/img/fill2.jpg",
         "price": 54999
     },
     {
@@ -92,7 +92,7 @@
         "name": "Apple AirPods Max",
         "description": "AirPods Max оснащені активним шумозаглушенням, простим підключенням до пристроїв Apple та високоякісним звучанням у преміальному дизайні.",
         "image": "/img/apple_airpods_max_1.jpg",
-        "image2": "img/fill2.jpg",
+        "image2": "/img/fill2.jpg",
         "price": 23999
     },
     {
@@ -100,7 +100,7 @@
         "name": "Microsoft Surface Pro 9",
         "description": "Microsoft Surface Pro 9 поєднує в собі потужність ноутбука та гнучкість планшета, ідеально підходить для роботи та творчості.",
         "image": "/img/microsoft_surface_pro__9_1.jpg",
-        "image2": "img/fill2.jpg",
+        "image2": "/img/fill2.jpg",
         "price": 61999
     },
     {
@@ -108,7 +108,7 @@
         "name": "Lenovo ThinkPad X1 Carbon",
         "description": "Lenovo ThinkPad X1 Carbon пропонує легкий дизайн, високу надійність та відмінну клавіатуру для бізнес-користувачів.",
         "image": "/img/lenovo_thinkpad_x1_carbon_1.jpg",
-        "image2": "img/fill3.jpg",
+        "image2": "/img/fill3.jpg",
         "price": 58999
     },
     {
@@ -116,7 +116,7 @@
         "name": "Xiaomi Redmi Note 12 Pro 5G",
         "description": "Xiaomi Redmi Note 12 Pro 5G має потужний процесор, великий AMOLED-дисплей та швидку зарядку для щоденного використання.",
         "image": "/img/xiaomi_redmi_note_12_pro___5g_1.jpg",
-        "image2": "img/fill3.jpg",
+        "image2": "/img/fill3.jpg",
         "price": 12999
     },
     {
@@ -124,7 +124,7 @@
         "name": "Xiaomi Monitor A22i",
         "description": "Монітор 21.5″ IPS‑екран, Full HD, тонкі рамки, підходить як другий дисплей для роботи чи ігор.",
         "image": "/img/Xiaomi_Monitor_A22i.jpg",
-        "image2": "img/fill3.jpg",
+        "image2": "/img/fill3.jpg",
         "price": 3099
     },
     {
@@ -132,7 +132,7 @@
         "name": "Xiaomi Gaming Monitor G27i",
         "description": "Монітор 27″, 165 Hz, IPS‑панель, ігровий режим, високий рівень відгуку — хороший вибір для геймерів.",
         "image": "/img/Xiaomi_Gaming_Monitor_G27i.jpg",
-        "image2": "img/fill3.jpg",
+        "image2": "/img/fill3.jpg",
         "price": 5799
     },
     {
@@ -140,7 +140,7 @@
         "name": "LG 27GS75Q‑B",
         "description": "Монітор 27″ від LG, QHD‑роздільна здатність, дизайну преміум, для професійної роботи та розваг.",
         "image": "/img/LG_27GS75Q‑B.jpg",
-        "image2": "img/fill3.jpg",
+        "image2": "/img/fill3.jpg",
         "price": 9799
     },
     {
@@ -148,7 +148,7 @@
         "name": "Vinga 27S110‑11B",
         "description": "Бюджетний 27″ монітор, Full HD, базовий набір портів, підходить для офісу чи навчання.",
         "image": "/img/Vinga_27S110‑11B.jpg",
-        "image2": "img/fill3.jpg",
+        "image2": "/img/fill3.jpg",
         "price": 3899
     },
     {
@@ -156,7 +156,7 @@
         "name": "Acer Nitro 5 (i7‑12700H / RTX 3050)",
         "description": "Ноутбук ігрового/потужного класу: Intel i7‑12700H, NVIDIA GeForce RTX 3050, 15.6″ дисплей — чудовий вибір для геймерів та розробників.",
         "image": "/img/Acer_Nitro_5.jpg",
-        "image2": "img/fill4.jpg",
+        "image2": "/img/fill4.jpg",
         "price": 43995
     },
     {
@@ -164,7 +164,7 @@
         "name": "Dell XPS 15 9520 (i7‑12700H)",
         "description": "Ноутбук преміум‑класу: 15.6″, Intel Core i7‑12700H, металевий корпус, високоякісний дисплей — для професійної роботи та творчості.",
         "image": "/img/Dell_XPS_15_9520.jpg",
-        "image2": "img/fill4.jpg",
+        "image2": "/img/fill4.jpg",
         "price": 41499
     },
     {
@@ -172,7 +172,7 @@
         "name": "HP Victus 15‑fa2700ua",
         "description": "Ноутбук 15″, збалансований варіант для ігор та щоденного використання, стильний дизайн, добра продуктивність за свою ціну.",
         "image": "/img/HP_Victus_15‑fa2700ua.jpg",
-        "image2": "img/fill4.jpg",
+        "image2": "/img/fill4.jpg",
         "price": 31828
     },
     {
@@ -180,7 +180,7 @@
         "name": "ASUS TUF Gaming A15",
         "description": "Ноутбук ігровий серії TUF: міцний корпус, хороший екран, оптимізований для ігор та стрімінгу.",
         "image": "/img/ASUS_TUF_Gaming_A15.jpg",
-        "image2": "img/fill4.jpg",
+        "image2": "/img/fill4.jpg",
         "price": 36999
     },
     {
@@ -188,7 +188,7 @@
         "name": "Samsung Galaxy S25",
         "description": "Флагманський смартфон: 12 ГБ + 128 ГБ пам’яті, топ‑камера, великий OLED‑дисплей — преміум‑виріб.",
         "image": "/img/Samsung_Galaxy_S25.jpeg",
-        "image2": "img/fill4.jpg",
+        "image2": "/img/fill4.jpg",
         "price": 41999
     },
     {
@@ -196,7 +196,7 @@
         "name": "Motorola Edge",
         "description": "Смартфон високого класу: яскравий 6.7″ OLED, 144 Hz, швидка зарядка 68 Вт — хороший вибір серед Android‑преміуму.",
         "image": "/img/Motorola_Edge.png",
-        "image2": "img/fill5.jpg",
+        "image2": "/img/fill5.jpg",
         "price": 48500
     },
     {
@@ -204,7 +204,7 @@
         "name": "Tecno Pop 5 Pro",
         "description": "Бюджетний смартфон: базовий набір функцій, підходить як запасний чи для першого телефону.",
         "image": "/img/Tecno_Pop_5_Pro.png",
-        "image2": "img/fill5.jpg",
+        "image2": "/img/fill5.jpg",
         "price": 11490
     },
     {
@@ -212,7 +212,7 @@
         "name": "Samsung i225 Exec",
         "description": "Доступний телефон: мінімальний набір функцій, підходить для простих задач і зв’язку.",
         "image": "/img/Samsung_i225_Exec.jpg",
-        "image2": "img/fill5.jpg",
+        "image2": "/img/fill5.jpg",
         "price": 4500
     },
     {
@@ -220,7 +220,7 @@
         "name": "Sony Bravia 55″ 4K Smart TV",
         "description": "Телевізор 55″, 4K UHD, Smart TV, відомий бренд Sony — універсальний вибір для кінопоказу та ігор.",
         "image": "/img/Sony_Bravia_55.jpg",
-        "image2": "img/fill5.jpg",
+        "image2": "/img/fill5.jpg",
         "price": 25999
     },
     {
@@ -228,7 +228,7 @@
         "name": "Samsung QLED 65″ Smart TV",
         "description": "Телевізор 65″, QLED‑панель, висока яскравість, широкий кут огляду — хороший для великої вітальні.",
         "image": "/img/Samsung_QLED_65.jpg",
-        "image2": "img/fill5.jpg",
+        "image2": "/img/fill5.jpg",
         "price": 34999
     },
     {
@@ -236,7 +236,7 @@
         "name": "LG OLED 48″ Smart TV",
         "description": "Телевізор 48″ з OLED‑панеллю — глибокі чорні, тонкий корпус, преміум‑досвід для кімнати середнього розміру.",
         "image": "/img/LG_OLED_48.jpg",
-        "image2": "img/fill6.jpg",
+        "image2": "/img/fill6.jpg",
         "price": 32999
     },
     {
@@ -244,7 +244,7 @@
         "name": "Apple iPhone 15 (128 GB)",
         "description": "Смартфон преміум‑класу від Apple: 128 ГБ пам’яті, iOS, топ‑камера — добрий варіант для екосистеми Apple.",
         "image": "/img/Apple_iPhone_15.jpg",
-        "image2": "img/fill6.jpg",
+        "image2": "/img/fill6.jpg",
         "price": 33999
     },
     {
@@ -252,7 +252,7 @@
         "name": "Dell Inspiron 14 Laptop",
         "description": "Ноутбук 14″, легкий та портативний, підходить для навчання чи роботи в дорозі.",
         "image": "/img/Dell_Inspiron_14.jpg",
-        "image2": "img/fill6.jpg",
+        "image2": "/img/fill6.jpg",
         "price": 21999
     },
     {
@@ -260,7 +260,7 @@
         "name": "HP Pavilion 15 Laptop",
         "description": "Ноутбук 15″, універсальний варіант для дому: перегляд, офіс, навчання.",
         "image": "/img/HP_Pavilion_15_Laptop.jpg",
-        "image2": "img/fill6.jpg",
+        "image2": "/img/fill6.jpg",
         "price": 18999
     },
     {
@@ -268,7 +268,7 @@
         "name": "Asus ROG Strix G15 Laptop",
         "description": "Ноутбук ігровий серії ROG: 15.6″, високий кадровий показник, дискретна відеокарта, для геймерів та стрімерів.",
         "image": "/img/Asus_ROG_Strix_G15.png",
-        "image2": "img/fill7.jpg",
+        "image2": "/img/fill7.jpg",
         "price": 42999
     },
     {
@@ -276,7 +276,7 @@
         "name": "Samsung Galaxy A35 Smartphone",
         "description": "Смартфон середнього класу: добрий баланс ціни та характеристик для повсякденного використання.",
         "image": "/img/Samsung_Galaxy_A35.png",
-        "image2": "img/fill7.jpg",
+        "image2": "/img/fill7.jpg",
         "price": 14999
     }
 ]
