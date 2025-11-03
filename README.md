@@ -1,31 +1,30 @@
-# Astro Starter Kit: Minimal
+# Структура файлів
 
-```sh
-npm create astro@latest -- --template minimal
+## HTML
+```
+/
+├── src/
+    └── pages/
+        └── name.astro
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## CSS
+```
+/
+├── src/
+    └── styles/
+        └── name.css
+```
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
+## Images
+```
 /
 ├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+    └── img/
+        └── name.format
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
+# Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -38,6 +37,19 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+# Docs
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+<a href="https://docs.astro.build/en/getting-started/">Docs</a>
+
+# Example
+
+```Astro
+---
+import Layout from "../layouts/layout.astro"    <- Підключення шаблону сайту
+import '../styles/wholesale.css'                <- Підключення css
+---
+
+<Layout title="Оптовим покупцям">               <- title сторінки
+	<h1>Оптовим покупцям</h1>               <- В цьому блоці ви пишете те що буде в <main>
+</Layout>
+```
