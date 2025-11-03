@@ -1,14 +1,23 @@
 ---
 import Layout from "../../layouts/layout.astro";
-import products from '../../data/products.json';
-import '../../styles/product.css'
+import products from "../../data/products.json";
+import "../../styles/product.css";
+
+// Генерує сторінки для кожного продукту
+export async function getStaticPaths() {
+  return products.map(p => ({
+    params: { id: p.id.toString() },
+  }));
+}
 
 const { id } = Astro.params;
 const numericCount = Number(id);
 
+// Знаходить продукт по id
 const product = products.find(p => p.id === numericCount);
+
 if (!product) {
-    throw new Error("Product not found");
+  throw new Error("Product not found");
 }
 ---
 

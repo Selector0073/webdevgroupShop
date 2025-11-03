@@ -2,5 +2,6 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  output: "server",
+  output: "static", // було "server"
+  outDir: "./dist",
 });
