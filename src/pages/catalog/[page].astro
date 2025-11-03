@@ -1,0 +1,59 @@
+---
+import Layout from "../../layouts/layout.astro";
+import "../../styles/shop.css";
+import products from "../../data/products.json";
+
+const ITEMS_PER_PAGE = 20;
+
+const currentPage = Number(Astro.params.page) || 1;
+
+const start = (currentPage - 1) * ITEMS_PER_PAGE;
+const end = start + ITEMS_PER_PAGE;
+const paginated = products.slice(start, end);
+
+const totalPages = Math.ceil(products.length / ITEMS_PER_PAGE);
+
+export async function getStaticPaths() {
+    const ITEMS_PER_PAGE = 20;
+    const products = (await import("../../data/products.json")).default;
+    const totalPages = Math.ceil(products.length / ITEMS_PER_PAGE);
+
+    return Array.from({ length: totalPages }, (_, i) => ({
+        params: { page: (i + 1).toString() },
+    }));
+}
+---
+
+<Layout title={`Каталог — сторінка ${currentPage}`}>
+    <h1>Каталог</h1>
+    <h2>(Сторінка {currentPage} з {totalPages})</h2>
+
+    <div class="d-flex flex-wrap justify-content-center" style="gap: 9rem;">
+        {paginated.map((product, index) => (
+            <div class="product-card" style={`animation-delay: ${0.08 * (index + 1)}s`}>
+                <div class="card bg-dark text-white" style="width: 18rem;">
+                    <img src={product.image} class="card-img-top" alt={product.name} />
+                    <div class="card-body">
+                        <h5 class="card-title">{product.name}</h5>
+                        <p class="card-text">
+                            {product.description.length > Math.ceil(product.description.length / 2)
+                                ? product.description.slice(0, Math.ceil(product.description.length / 2)) + "..."
+                                : product.description}
+                        </p>
+                        <a href={`/product/${product.id}`} class="btn btn-primary">Переглянути</a>
+                    </div>
+                </div>
+            </div>
+        ))}
+    </div>
+
+    <nav aria-label="..." class="bottom-nav">
+        <ul class="pagination pagination-sm">
+            {Array.from({ length: totalPages }).map((_, i) => (
+                <li class={`page-item ${currentPage === i + 1 ? "active" : ""}`}>
+                    <a class="page-link" href={`/catalog/${i + 1}`}>{i + 1}</a>
+                </li>
+            ))}
+        </ul>
+    </nav>
+</Layout>

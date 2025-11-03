@@ -10,3 +10,14 @@
         transform: translateY(0);
     }
 }
+
+.page-link:not(active) {
+    background-color: black !important;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
