@@ -31,7 +31,7 @@ export async function getStaticPaths() {
     <div class="d-flex flex-wrap justify-content-center" style="gap: 9rem;">
         {paginated.map((product, index) => (
             <div class="product-card" style={`animation-delay: ${0.08 * (index + 1)}s`}>
-                <div class="card bg-dark text-white" style="width: 18rem;">
+                <div class="card  text-white" style="width: 18rem;">
                     <img src={product.image} class="card-img-top" alt={product.name} />
                     <div class="card-body">
                         <h5 class="card-title">{product.name}</h5>

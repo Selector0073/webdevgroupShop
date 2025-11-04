@@ -49,3 +49,8 @@ img {
     font-size: 130%;
     letter-spacing: 2px;
 }
+
+.btn-success {
+    background-color: #097358;
+    border-color: #097358;
+}
