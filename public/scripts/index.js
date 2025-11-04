@@ -13,7 +13,7 @@ renderer.domElement.style.zIndex = '-1';
 const geometry = new THREE.PlaneGeometry(2, 2);
 
 const uniforms = {
-    mouse: { value: new THREE.Vector2(0.5, 0.5) }, // по центру
+    mouse: { value: new THREE.Vector2(0.5, 0.5) },
     time: { value: 0.0 }
 };
 
@@ -32,13 +32,14 @@ const material = new THREE.ShaderMaterial({
         varying vec2 vUv;
 
         void main() {
-            vec3 color1 = vec3(0.114, 0.165, 0.208); // #1d2a35
-            vec3 color2 = vec3(0.176, 0.215, 0.282); // #2d3748
+            vec3 color1 = vec3(0.2, 0.65, 0.40);
+            vec3 color2 = vec3(0.2, 0.55, 0.40);
+
 
             vec3 base = mix(color1, color2, vUv.y);
             float dist = distance(vUv, mouse);
-            float warp = sin(dist * 20.0 - time * 5.0) * 0.05;
-            base += warp * 0.4;
+            float warp = sin(dist * 20.0 - time * 5.0) * 0.35;
+            base += warp * 0.1;
 
             gl_FragColor = vec4(base, 1.0);
         }

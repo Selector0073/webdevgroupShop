@@ -3,7 +3,7 @@ import Layout from "../../layouts/layout.astro";
 import "../../styles/shop.css";
 import products from "../../data/products.json";
 
-const ITEMS_PER_PAGE = 20;
+const ITEMS_PER_PAGE = 12;
 
 const currentPage = Number(Astro.params.page) || 1;
 
@@ -14,7 +14,7 @@ const paginated = products.slice(start, end);
 const totalPages = Math.ceil(products.length / ITEMS_PER_PAGE);
 
 export async function getStaticPaths() {
-    const ITEMS_PER_PAGE = 20;
+    const ITEMS_PER_PAGE = 12;
     const products = (await import("../../data/products.json")).default;
     const totalPages = Math.ceil(products.length / ITEMS_PER_PAGE);
 
@@ -40,14 +40,14 @@ export async function getStaticPaths() {
                                 ? product.description.slice(0, Math.ceil(product.description.length / 2)) + "..."
                                 : product.description}
                         </p>
-                        <a href={`/product/${product.id}`} class="btn btn-primary">Переглянути</a>
+                        <a href={`/product/${product.id}`} class="btn btn-success">Переглянути</a>
                     </div>
                 </div>
             </div>
         ))}
     </div>
 
-    <nav aria-label="..." class="bottom-nav">
+    <nav aria-label="bottom-nav" class="bottom-nav">
         <ul class="pagination pagination-sm">
             {Array.from({ length: totalPages }).map((_, i) => (
                 <li class={`page-item ${currentPage === i + 1 ? "active" : ""}`}>

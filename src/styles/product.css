@@ -16,7 +16,8 @@ span {
 }
 
 #exampleInputEmail1, #exampleInputPassword1, #exampleFormControlTextarea1, #exampleInputPasswordConfirm1 {
-    background-color: #1d2a35;
+    background-color: #319A60;
+    border-color: #22bf69;
     color: white;
 }
 
@@ -30,6 +31,7 @@ span {
     margin-left: 10%;
     margin-right: 10%;
     background-color: #ff3737 !important;
+    border-color: #ff3737;
 }
 
 #carouselExampleControlsNoTouching {
@@ -41,4 +43,9 @@ img {
     max-height: 500px;
     width: auto;
     object-fit: contain;
+}
+
+.price {
+    font-size: 130%;
+    letter-spacing: 2px;
 }

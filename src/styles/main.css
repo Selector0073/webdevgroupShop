@@ -29,11 +29,10 @@
 */
 
 :root {
-    --bg: #1d2a35;
     --sec-bg: #15202b;
-    --thr-bg: #0d1721;
+    --thr-bg: #006e52;
     --btn: #059862;
-    --text: #b8dddd;
+    --text: white;
     --pop-up: #2d3748;
 }
 
@@ -49,7 +48,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: var(--bg);
     color: var(--text);
     font-family: "Liberation Mono", "Courier New", monospace;
     box-sizing: border-box;
@@ -66,15 +64,16 @@ main {
 
 footer {
     text-align: center;
+    color: var(--text);
     padding: 10px 3px 10px;
-    background-color: #171921;
+    background-color: var(--thr-bg);
     width: 100%;
     margin-top: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
-    color: #dddddd;
+    color: white;
     margin-top: 10px;
 }
 
@@ -84,4 +83,8 @@ p {
 
 .navbar {
     background-color: var(--thr-bg) !important;
+}
+
+.dropdown-menu {
+    background-color: #005943;
 }

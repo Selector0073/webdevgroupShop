@@ -12,7 +12,9 @@
 }
 
 .page-link:not(active) {
-    background-color: black !important;
+    background-color: #006E53;
+    color: white;
+    border-color: #006953;
 }
 
 .bottom-nav {
@@ -21,3 +23,15 @@
     margin-top: 20px;
 }
 
+.card-body {
+    background-color: #0a8768;
+}
+
+.card {
+    border-color: #0a8768;
+}
+
+.btn-success {
+    background-color: #097358;
+    border-color: #097358;
+}

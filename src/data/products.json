@@ -278,5 +278,214 @@
         "image": "/img/Samsung_Galaxy_A35.png",
         "image2": "/img/fill7.jpg",
         "price": 14999
+    },
+
+
+
+
+
+
+
+
+
+    {
+        "id": 36,
+        "name": "Apple MacBook Air M2 13″",
+        "description": "Ультратонкий ноутбук з процесором M2, високою продуктивністю та довготривалою автономністю.",
+        "image": "/img/MacBook_Air_M2_13.jpg",
+        "image2": "/img/fill1.jpg",
+        "price": 48999
+    },
+    {
+        "id": 37,
+        "name": "Lenovo IdeaPad 3 Laptop",
+        "description": "Бюджетний ноутбук 15.6″ для офісу, навчання та базових завдань.",
+        "image": "/img/Lenovo_IdeaPad_3.jpg",
+        "image2": "/img/fill6.jpg",
+        "price": 15999
+    },
+    {
+        "id": 38,
+        "name": "Acer Aspire 7 Laptop",
+        "description": "Ноутбук 15.6″ з дискретною графікою — оптимальний вибір для мультимедіа та роботи.",
+        "image": "/img/Acer_Aspire_7.jpg",
+        "image2": "/img/fill7.jpg",
+        "price": 23999
+    },
+    {
+        "id": 39,
+        "name": "MSI Katana GF66 Laptop",
+        "description": "Ігровий ноутбук 15.6″ з потужним процесором і відеокартою RTX 3050, ідеальний для геймерів.",
+        "image": "/img/MSI_Katana_GF66.jpg",
+        "image2": "/img/fill7.jpg",
+        "price": 39999
+    },
+    {
+        "id": 40,
+        "name": "Asus VivoBook S14 Laptop",
+        "description": "Стильний та компактний ноутбук 14″ з яскравим дисплеєм і швидким SSD.",
+        "image": "/img/Asus_VivoBook_S14.jpg",
+        "image2": "/img/fill1.jpg",
+        "price": 21999
+    },
+    {
+        "id": 41,
+        "name": "Apple iPhone 15",
+        "description": "Новітній смартфон Apple з потужним A16 Bionic та якісною камерою.",
+        "image": "/img/iPhone_15.png",
+        "image2": "/img/fill1.jpg",
+        "price": 47999
+    },
+    {
+        "id": 42,
+        "name": "Samsung Galaxy S24",
+        "description": "Флагманський смартфон Samsung з AMOLED екраном та вражаючою камерою.",
+        "image": "/img/Samsung_Galaxy_S24.jpg",
+        "image2": "/img/fill7.jpg",
+        "price": 52999
+    },
+    {
+        "id": 43,
+        "name": "Xiaomi Redmi Note 13 Pro",
+        "description": "Смартфон середнього класу з потужною батареєю і камерою 108 Мп.",
+        "image": "/img/Redmi_Note_13_Pro.jpg",
+        "image2": "/img/fill5.jpg",
+        "price": 13999
+    },
+    {
+        "id": 44,
+        "name": "Google Pixel 8",
+        "description": "Смартфон Google з AI-можливостями та чистим Android.",
+        "image": "/img/Google_Pixel_8.jpg",
+        "image2": "/img/fill1.jpg",
+        "price": 46999
+    },
+    {
+        "id": 45,
+        "name": "OnePlus 12",
+        "description": "Потужний смартфон з Snapdragon 8 Gen 3 та швидкою зарядкою 100 Вт.",
+        "image": "/img/OnePlus_12.png",
+        "image2": "/img/fill1.jpg",
+        "price": 39999
+    },
+    {
+        "id": 46,
+        "name": "Realme 11 Pro+",
+        "description": "Смартфон з камерою 200 Мп та вигнутим AMOLED екраном.",
+        "image": "/img/Realme_11_Pro+.jpg",
+        "image2": "/img/fill7.jpg",
+        "price": 16999
+    },
+    {
+        "id": 47,
+        "name": "Apple iPad Air 5",
+        "description": "Планшет з чіпом M1, підтримкою Apple Pencil та яскравим Liquid Retina дисплеєм.",
+        "image": "/img/iPad_Air_5.png",
+        "image2": "/img/fill4.jpg",
+        "price": 29999
+    },
+    {
+        "id": 48,
+        "name": "Samsung Galaxy Tab S9",
+        "description": "Планшет з AMOLED екраном та вологозахистом, підходить для роботи і розваг.",
+        "image": "/img/Galaxy_Tab_S9.jpg",
+        "image2": "/img/fill1.jpg",
+        "price": 34999
+    },
+    {
+        "id": 49,
+        "name": "Xiaomi Pad 6",
+        "description": "Планшет з Snapdragon 870 та високою частотою екрану 144 Гц.",
+        "image": "/img/Xiaomi_Pad_6.jpg",
+        "image2": "/img/fill6.jpg",
+        "price": 19999
+    },
+    {
+        "id": 50,
+        "name": "Amazon Kindle Paperwhite",
+        "description": "Електронна книга з підсвічуванням і водозахистом, зручна для читання в дорозі.",
+        "image": "/img/Kindle_Paperwhite.jpg",
+        "image2": "/img/fill6.jpg",
+        "price": 9999
+    },
+    {
+        "id": 51,
+        "name": "Logitech MX Master 3S Mouse",
+        "description": "Професійна бездротова миша з точним сенсором та ергономічним дизайном.",
+        "image": "/img/Logitech_MX_Master_3S.jpg",
+        "image2": "/img/fill5.jpg",
+        "price": 4499
+    },
+    {
+        "id": 52,
+        "name": "Razer BlackWidow V4 Keyboard",
+        "description": "Механічна ігрова клавіатура з RGB підсвіткою та алюмінієвим корпусом.",
+        "image": "/img/Razer_BlackWidow_V4.jpg",
+        "image2": "/img/fill1.jpg",
+        "price": 6999
+    },
+    {
+        "id": 53,
+        "name": "Sony WH-1000XM5 Headphones",
+        "description": "Бездротові навушники з активним шумопоглинанням та довгим часом роботи.",
+        "image": "/img/Sony_WH1000XM5.jpg",
+        "image2": "/img/fill1.jpg",
+        "price": 14999
+    },
+    {
+        "id": 54,
+        "name": "Apple AirPods Pro 2",
+        "description": "Навушники з активним шумопоглинанням та режимом прозорості.",
+        "image": "/img/AirPods_Pro_2.jpg",
+        "image2": "/img/fill3.jpg",
+        "price": 10499
+    },
+    {
+        "id": 55,
+        "name": "Samsung Galaxy Buds 2 Pro",
+        "description": "Компактні навушники з Hi-Fi звуком та активним шумопоглинанням.",
+        "image": "/img/Galaxy_Buds_2_Pro.jpeg",
+        "image2": "/img/fill6.jpg",
+        "price": 7999
+    },
+    {
+        "id": 56,
+        "name": "JBL Flip 6 Speaker",
+        "description": "Портативна Bluetooth-колонка з потужним звуком та водозахистом.",
+        "image": "/img/JBL_Flip_6.jpg",
+        "image2": "/img/fill1.jpg",
+        "price": 4999
+    },
+    {
+        "id": 57,
+        "name": "Apple Watch Series 9",
+        "description": "Смартгодинник з датчиками здоров’я та повною інтеграцією з iPhone.",
+        "image": "/img/Apple_Watch_Series_9.jpg",
+        "image2": "/img/fill7.jpg",
+        "price": 18999
+    },
+    {
+        "id": 58,
+        "name": "Samsung Galaxy Watch 6",
+        "description": "Смартгодинник на Wear OS з якісним екраном та розширеним фітнес-трекінгом.",
+        "image": "/img/Galaxy_Watch_6.jpg",
+        "image2": "/img/fill8.jpg",
+        "price": 16999
+    },
+    {
+        "id": 59,
+        "name": "Garmin Venu 3",
+        "description": "Преміум фітнес-годинник з точними сенсорами та підтримкою GPS.",
+        "image": "/img/Garmin_Venu_3.jpg",
+        "image2": "/img/fill8.jpg",
+        "price": 17999
+    },
+    {
+        "id": 60,
+        "name": "GoPro Hero 12 Black",
+        "description": "Екшн-камера з покращеною стабілізацією та записом відео 5.3K.",
+        "image": "/img/GoPro_Hero_12_Black.jpg",
+        "image2": "/img/fill8.jpg",
+        "price": 18999
     }
 ]
