@@ -89,7 +89,10 @@ const { pathname } = Astro.url;
     <header> 
         <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/">WebDevGroupShop</a>
+                <a class="navbar-brand" href="/">
+                    <img src="/img/store-line.png" alt="logo" width="25" height="25">
+                    WebDevGroupShop
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -132,7 +135,6 @@ const { pathname } = Astro.url;
         </nav>
     </header>
     <main>
-        <div id="bg"></div>
         <slot />
     </main>
     <footer>Selector0073 | Каріна Батура | Катя Каташинська</footer>
