@@ -1,0 +1,55 @@
+.wholesale-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.lead {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.benefit-card {
+    background: #005943;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card h3 {
+    margin-bottom: 0.8rem;
+}
+
+.cta-box {
+    background: #006e52;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 16px;
+}
+
+.cta-box a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.cta-box a:hover {
+    text-decoration: underline;
+}
+
+.btn-wholesale {
+    background-color: #059862;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
