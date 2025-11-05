@@ -88,3 +88,12 @@ p {
 .dropdown-menu {
     background-color: #005943;
 }
+
+#bg {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+}
+
+
+

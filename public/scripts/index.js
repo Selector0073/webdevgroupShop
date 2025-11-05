@@ -3,12 +3,15 @@ const camera = new THREE.PerspectiveCamera(75, innerWidth / innerHeight, 0.1, 10
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(innerWidth, innerHeight);
 document.body.insertBefore(renderer.domElement, document.body.firstChild);
-renderer.domElement.style.position = 'fixed';
+const container = document.getElementById("bg");
+container.appendChild(renderer.domElement);
+renderer.domElement.style.position = "fixed";
 renderer.domElement.style.top = 0;
 renderer.domElement.style.left = 0;
-renderer.domElement.style.width = '100%';
-renderer.domElement.style.height = '100%';
-renderer.domElement.style.zIndex = '-1';
+renderer.domElement.style.width = "100%";
+renderer.domElement.style.height = "100%";
+renderer.domElement.style.zIndex = "-1";
+
 
 const geometry = new THREE.PlaneGeometry(2, 2);
 
