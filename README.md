@@ -1,5 +1,5 @@
 # Plan
-![obsidian plan](obsidian.png)
+![obsidian plan](obsidian2.png)
 
 # Структура файлів
 
