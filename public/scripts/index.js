@@ -1,16 +1,22 @@
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, innerWidth / innerHeight, 0.1, 1000);
+
 const renderer = new THREE.WebGLRenderer({ antialias: true });
+
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+
 renderer.setSize(innerWidth, innerHeight);
-document.body.insertBefore(renderer.domElement, document.body.firstChild);
-const container = document.getElementById("bg");
-container.appendChild(renderer.domElement);
+document.getElementById("bg").appendChild(renderer.domElement);
+
 renderer.domElement.style.position = "fixed";
 renderer.domElement.style.top = 0;
 renderer.domElement.style.left = 0;
 renderer.domElement.style.width = "100%";
 renderer.domElement.style.height = "100%";
 renderer.domElement.style.zIndex = "-1";
+
+
 
 
 const geometry = new THREE.PlaneGeometry(2, 2);
