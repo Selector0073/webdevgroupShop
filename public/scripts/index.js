@@ -17,8 +17,6 @@ renderer.domElement.style.height = "100%";
 renderer.domElement.style.zIndex = "-1";
 
 
-
-
 const geometry = new THREE.PlaneGeometry(2, 2);
 
 const uniforms = {
