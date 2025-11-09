@@ -39,8 +39,14 @@ export async function getStaticPaths() {
                             {product.description.length > Math.ceil(product.description.length / 2)
                                 ? product.description.slice(0, Math.ceil(product.description.length / 2)) + "..."
                                 : product.description}
-                        </p>
-                        <a href={`/product/${product.id}`} class="btn btn-success">Переглянути</a>
+                        </p>                       
+                        <a href={`/product/${product.id}`}>
+                            <button class="custom-learn-more-btn">
+                                <span class="button-text">Більше</span>
+                                <div class="circle"></div>
+                                <div class="arrow"></div>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
