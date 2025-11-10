@@ -47,6 +47,7 @@ html, body {
 
 body {
     display: flex;
+    background-color: #04aa6d;
     flex-direction: column;
     min-height: 100vh;
     box-sizing: border-box;

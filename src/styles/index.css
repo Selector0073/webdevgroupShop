@@ -19,3 +19,11 @@ body {
 canvas { 
     display: block; 
 }
+
+noscript {
+    display: flex;
+    color: red;
+    background-color: yellow;
+    font-size: 400%;
+    text-align: center;
+}
